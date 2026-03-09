@@ -1,10 +1,5 @@
 👁️ Face Recognition Attendance System
 
-
-
-
-
-
 A Python + OpenCV based Face Recognition Attendance System that detects and recognizes faces using a webcam and automatically records attendance in a CSV file.
 
 The system captures facial images, trains a recognition model using the LBPH algorithm, and performs real-time face recognition.
@@ -39,16 +34,21 @@ Face-Recognition
         ├── Person_1.jpg
         ├── Person_2.jpg
         └── Person_n.jpg
+        
 ⚙️ Installation
+
 1 Clone Repository
 git clone https://github.com/rsamwilson2323-cloud/Face-Recognition.git
 cd Face-Recognition
+
 2 Install Dependencies
 pip install -r requirements.txt
+
 📦 Requirements
 opencv-python
 opencv-contrib-python
 numpy
+
 📸 Step 1 — Capture Face Dataset
 
 Run the dataset capture script:
